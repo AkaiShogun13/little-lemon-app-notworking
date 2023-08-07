@@ -1,6 +1,6 @@
 export default function Navbar() {
     return (
-        <nav>
+        <nav className="nav-menu">
             <img src={require("../assets/nav-logo.png")}
                  className="nav-logo"
                  alt="Little Lemon logo">
