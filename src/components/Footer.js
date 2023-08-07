@@ -1,9 +1,9 @@
 export default function Footer() {
     return (
         <footer>
-            <img src={"/assets/footer-logo.png"}
-            className="footer-logo"
-            alt="Little lemon logo">
+            <img src={require ("../assets/footer-logo.png")}
+                 className="footer-logo"
+                 alt="Little lemon logo">
             </img>
             <ul>
                 <h3>Doormat Navigation</h3>

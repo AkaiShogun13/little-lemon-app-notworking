@@ -1,9 +1,9 @@
 export default function Navbar() {
     return (
         <nav>
-            <img src={"/assets/nav-logo.png"}
-            className="nav-logo"
-            alt="Little Lemon logo">
+            <img src={require("../assets/nav-logo.png")}
+                 className="nav-logo"
+                 alt="Little Lemon logo">
             </img>
             <ul>
                 <li>
