@@ -1,8 +1,12 @@
-export default function SpecialsCard(props) {
+import "./SpecialsCard.css"
+
+ function SpecialsCard(props) {
     return (
-        <article>
+        <article className="card-container">
             <img src={props.image}
-                 alt="specials img">
+                 alt="specials img"
+                 width={264}
+                 height={185}>
             </img>
             <section className="specials-content">
                 <h2>{props.name}</h2>
@@ -13,3 +17,5 @@ export default function SpecialsCard(props) {
         </article>
     )
 }
+
+export default SpecialsCard

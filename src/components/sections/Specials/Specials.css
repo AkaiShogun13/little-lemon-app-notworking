@@ -1,0 +1,38 @@
+.specials-container {
+    height: 100%;
+    padding: 2.5rem 0;
+    max-width: 65rem;
+    margin: 0 auto;
+}
+
+.specials-top {
+    display: grid;
+    grid-template-columns: 85fr 15fr;
+    align-items: center;
+}
+
+.specials-top h1 {
+    font-size: 64px;
+    font-weight: 500;
+    font-family: 'Markazi Text', serif;
+}
+
+.online-btn {
+    width: 200px;
+    height: 60px;
+    border-radius: 16px;
+    border: none;
+    background-color: #f4ce14;
+    color: black;
+    font-size: 18px;
+    font-family: 'Karla', serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.specials-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+}

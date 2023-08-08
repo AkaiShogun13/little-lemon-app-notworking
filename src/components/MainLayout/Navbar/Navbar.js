@@ -1,9 +1,14 @@
-export default function Navbar() {
+import NavLogo from "../../../assets/nav-logo.png"
+import "./Navbar.css"
+
+function Navbar() {
     return (
         <nav className="nav-menu">
-            <img src={require("../assets/nav-logo.png")}
+            <img src={NavLogo}
                  className="nav-logo"
-                 alt="Little Lemon logo">
+                 alt="Little Lemon logo"
+                 width={195}
+                 height={53}>
             </img>
             <ul>
                 <li>
@@ -28,3 +33,5 @@ export default function Navbar() {
         </nav>
     );
 }
+
+export default Navbar

@@ -1,37 +1,38 @@
-.nav-menu {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  min-height: 6.25rem;
-
-}
-.nav-menu > ul {
-  text-align: center;
-  list-style: none;
-}
-.nav-logo {
-  max-height: 4rem;
-  margin-top: 0.7rem;
-  margin-left: 1.25rem;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-/* HEADING SECTION*/
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
 
-.hero {
-  background-color: #495e57;
-  display: grid;
-  height: 373px;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
-.hero-text {
 
+.App-link {
+  color: #61dafb;
 }
-.hero-img {
-  width: 296px;
-  height: 347px;
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-.reserv-btn{
-  background-color: #f4ce14;
-  border: none;
-  border-radius: 16px;
-  width: 200px;
-  height: 43px;
+
+body {
+  font-family: Karla, sans-serif;
 }

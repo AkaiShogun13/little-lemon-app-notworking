@@ -1,18 +1,18 @@
-import Heading from "../sections/Heading";
-import Specials from "../sections/Specials";
-import Testimonial from "../sections/Testimonial";
-import About from "../sections/About"
+import Heading from "../sections/Heading/Heading";
+import Specials from "../sections/Specials/Specials";
+import Testimonial from "../sections/Testimonials/Testimonial";
+import About from "../sections/About/About"
 
 
-export default function Homepage() {
+function Homepage() {
     return (
         <>
-        <Heading />
-        <main>
+            <Heading />
             <Specials />
             <Testimonial />
             <About />
-        </main>
         </>
     )
 }
+
+export default Homepage
