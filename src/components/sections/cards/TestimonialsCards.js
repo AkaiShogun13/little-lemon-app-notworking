@@ -5,8 +5,9 @@ function TestimonialsCards(props) {
         <article className="testimonial-card">
         <img src={Star}
              alt="rating icon"
-             width={32}
-             height={32}></img>
+             width={50}
+             height={50}>
+        </img>
         <h3>{props.name}</h3>
         <p>{props.description}</p>
     </article>

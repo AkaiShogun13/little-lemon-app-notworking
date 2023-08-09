@@ -1,5 +1,6 @@
 import ChefImage from "../../../assets/chefs1.jpg"
 import ChefImage2 from "../../../assets/chefs2.jpg"
+import './About.css'
 
 function About() {
     return (
@@ -13,18 +14,16 @@ function About() {
                 continue to oversee the Little Lemon restaurant, nearly thirty years later.
                 </p>
             </section>
-            <section className="about-img">
                 <img className="about-img1"
-                     src={ChefImage}
-                     alt="Little lemon chefs"
-                     width={272}
-                     height={338}></img>
-                <img className="about-img2"
                      src={ChefImage2}
                      alt="Little lemon chefs"
                      width={272}
                      height={338}></img>
-            </section>
+                <img className="about-img2"
+                     src={ChefImage}
+                     alt="Little lemon chefs"
+                     width={272}
+                     height={338}></img>
         </article>
     )
 }

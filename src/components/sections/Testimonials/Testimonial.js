@@ -1,4 +1,5 @@
 import TestimonialsCards from "../cards/TestimonialsCards"
+import './Testimonial.css'
 
 function Testimonial() {
     return (

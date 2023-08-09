@@ -21,8 +21,8 @@ function Specials() {
                 <SpecialsCard image={Bruschetta}
                               name="Bruschetta"
                               price="$5.99"
-                              description="Our Bruschetta is made from grilled bread that has been smeared
-                                           with garlic and seasoned with salt and olive oil." />
+                              description="Slices of bread brushed with olive oil and toasted dark on the grill,
+                                           then topped with our fresh bruschetta sauce of diced plum tomatoes and garlic." />
                 <SpecialsCard image={LemonDessert}
                               name="Lemon Dessert"
                               price="$5.00"
